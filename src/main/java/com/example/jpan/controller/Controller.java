@@ -19,7 +19,7 @@ public class Controller {
     @GetMapping("/code_analyze")
     //@ResponseBody
     public HashMap<String, AnalyzerOfJava> getQuality(@RequestParam(name = "url") String url) throws IOException {
-
+//
         //analyzerOfJava.setUrl(url);
         //analyzerOfJava.setUrl("D:/user/Desktop/FOL");
         analyzerOfJava.downLoadZipFileFromGithub(url);
